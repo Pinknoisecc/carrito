@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta Regina Restaurante</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="header-mobile">
+            <img src="./img/logo_regina + molino.png" class="img-fluid logo" alt="Logo Regina Restaurante">
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <h1 class="logo-2">Carta</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active"> Todos los productos</button>
+                    </li>
+                    <li>
+                        <button id="entradas" class="boton-menu boton-categoria">Entradas y ensaladas</button>
+                    </li>
+                    <li>
+                        <button id="compartir" class="boton-menu boton-categoria">Para compartir</button>
+                    </li>
+                    <li>
+                        <button id="carnes" class="boton-menu boton-categoria">Carnes</button>
+                    </li>
+                    <li>
+                        <button id="pescados" class="boton-menu boton-categoria">Pescados</button>
+                    </li>
+                    <li>
+                        <button id="pastas" class="boton-menu boton-categoria">Pastas</button>
+                    </li>
+                    <li>
+                        <button id="postres" class="boton-menu boton-categoria">Postres</button>
+                    </li>
+                    <li>
+                        <button id="bebestibles" class="boton-menu boton-categoria">Bebestibles</button>
+                    </li>
+                    <li>
+                        <button id="cervezas" class="boton-menu boton-categoria">Cervezas</button>
+                    </li>
+                    <li>
+                        <button id="cocteleria" class="boton-menu boton-categoria">Coctelería</button>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+        </aside>
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+            </div>
+        </main>
+    </div>
+
+    <button id="scrollTopButton" class="scroll-top-button" onclick="scrollToTop()"><i class="fas fa-arrow-up"></i> Volver arriba</button>
+    
+    <footer class="footer">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="https://web.facebook.com/ReginaRestaurantPasteleria" target="_blank" class="text-white mx-3 social-links">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/reginaolmuerestaurante/" target="_blank" class="text-white mx-3 social-links">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-white mb-0">CONOCENOS</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/scrollbutton.js"></script>
+</body>
+</html>

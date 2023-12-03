@@ -1,0 +1,477 @@
+[
+    {
+        "id": "entrada-01",
+        "titulo": "Rotolino de berenjenas",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Entradas y ensaladas",
+            "id": "entradas"
+        },
+        "descripcion": "Láminas de berenjenas a la parrilla rellenas de ricotta y espinacas sobre salsa de tomates casera, rúcula, parmesano y aceite de oliva.",
+        "precio": 7900
+    },
+    {
+        "id": "entrada-02",
+        "titulo": "Tuna verde",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Entradas y ensaladas",
+            "id": "entradas"
+        },
+        "descripcion": "Tártaro de atún y espárragos sobre crema de palta y cilantro acompañado de chips de papas.",
+        "precio": 8900
+    },
+    {
+        "id": "entrada-03",
+        "titulo": "Con pica y cilantro",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Entradas y ensaladas",
+            "id": "entradas"
+        },
+        "descripcion": "Ceviche de pescado, sopa de ají amarillo y camote frito.",
+        "precio": 9500
+    },
+    {
+        "id": "entrada-04",
+        "titulo": "De la casa",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Entradas y ensaladas",
+            "id": "entradas"
+        },
+        "descripcion": "Mix de hojas verdes, vegetales asados, papa, tomate y pepino. \n También puedes acompañarla con: camarones al pil pil, pollo crocante o quesos con un costo adicional.",
+        
+        "precio": 6500
+    },
+    {
+        "id": "compartir-01",
+        "titulo": "Opción niños",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Para compartir",
+            "id": "compartir"
+        },
+        "descripcion": "Solo quesos (6 unidades).",
+        "precio": 6800
+    },
+    {
+        "id": "compartir-02",
+        "titulo": "Selección de empanadas",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Para compartir",
+            "id": "compartir"
+        },
+        "descripcion": "(2c/u) Pulpo, ostiones, camarones, pino carne y quesos. Servidas con pebre y ají verde.",
+        "precio": 15500
+    },
+    {
+        "id": "compartir-03",
+        "titulo": "Pil pil y a la parmesana",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Para compartir",
+            "id": "compartir"
+        },
+        "descripcion": "Camarones ecuatorianos cocinados con ajo, cacho de cabra, vino blanco y perejil. Ostiones a la parmesana con tostadas y salsas (Pil pil y verde).",
+        "precio": 15500
+    },
+    {
+        "id": "carnes-01",
+        "titulo": "Costillar de cerdo",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Carnes",
+            "id": "carnes"
+        },
+        "descripcion": "Asado a la leña sobre dúo de puré (zapallo y espinaca) y ensalada coleslaw.",
+        "precio": 11500
+    },
+    {
+        "id": "carnes-02",
+        "titulo": "Pastel de choclo (Solo fin de semana)",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Carnes",
+            "id": "carnes"
+        },
+        "descripcion": "Acompañado de ensalada de tomate a la chilena.",
+        "precio": 11900
+    },
+    {
+        "id": "carnes-03",
+        "titulo": "Conejo escabechado",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Carnes",
+            "id": "carnes"
+        },
+        "descripcion": "Servido con gratín de papas y espinacas.",
+        "precio": 12500
+    },
+    {
+        "id": "carnes-04",
+        "titulo": "Braseado de osobuco",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Carnes",
+            "id": "carnes"
+        },
+        "descripcion": "Acompañado de gnocchis 4 quesos (mantecoso, mozzarella, azul y parmesano).",
+        "precio": 14600
+    },
+    {
+        "id": "carnes-05",
+        "titulo": "Filete de vacuno",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Carnes y pescados",
+            "id": "carnes"
+        },
+        "descripcion": "Tocino y queso azul sobre risotto de hongos silvestres y demiglass de tomillo.",
+        "precio": 14900
+    },
+    {
+        "id": "pescados-01",
+        "titulo": "Reineta a la lata",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Pescados",
+            "id": "pescados"
+        },
+        "descripcion": "Con ratatouille y papas chips.",
+        "precio": 12900
+    },
+    {
+        "id": "pescados-02",
+        "titulo": "Merluza austral",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Pescados",
+            "id": "pescados"
+        },
+        "descripcion": "En salsa mediterránea acompañado de spaghettis al azafrán.",
+        "precio": 13500
+    },
+    {
+        "id": "pescados-03",
+        "titulo": "Salmón",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Pescados",
+            "id": "pescados"
+        },
+        "descripcion": "En costra de pastelera de choclo, vegetales salteados y pomodoro.",
+        "precio": 13500
+    },
+    {
+        "id": "pastas-01",
+        "titulo": "Gnocchis de papas",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Pastas",
+            "id": "pastas"
+        },
+        "descripcion": "Con salsa a elección",
+        "precio": 8500
+    },
+    {
+        "id": "pastas-02",
+        "titulo": "Tortelloni de conejo",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Pastas",
+            "id": "pastas"
+        },
+        "descripcion": "Escabechado, porotos verdes y pistachos tostados sobre salsa de olivas al pomodoro.",
+        "precio": 8500
+    },
+    {
+        "id": "pastas-03",
+        "titulo": "Lasagna de vegetales",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Pastas",
+            "id": "pastas"
+        },
+        "descripcion": "A la parrilla, láminas de pasta con bechamel de puerros, parmesano y mozzarella.",
+        "precio": 8900
+    },
+    {
+        "id": "pastas-04",
+        "titulo": "Lasagna boloñesa",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Pastas",
+            "id": "pastas"
+        },
+        "descripcion": "Láminas de pasta con salsa boloñesa, salsa bechamel, parmesano y mozzarella.",
+        "precio": 8900
+    },
+    {
+        "id": "pastas-05",
+        "titulo": "Tortelli de ricotta casera",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Pastas",
+            "id": "pastas"
+        },
+        "descripcion": "Zapallo camote asado, nueces tostadas y espinacas con mantequilla de salvia.",
+        "precio": 9800
+    },
+    {
+        "id": "pastas-06",
+        "titulo": "Tricorni de salmón",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Pastas",
+            "id": "pastas"
+        },
+        "descripcion": "Tocino crocante y espárragos sobre crema de puerros.",
+        "precio": 9800
+    },
+    {
+        "id": "Spaghetti de la costa",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Pastas",
+            "id": "pastas"
+        },
+        "descripcion": "Con almejas, mejillones, camarones y ostiones en sus propios caldos.",
+        "precio": 10600
+    },
+    {
+        "id": "pastas-07",
+        "titulo": "Spaguettis con poker",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Pastas",
+            "id": "pastas"
+        },
+        "descripcion": "De hongos al ajillo, albóndigas y huevo.",
+        "precio": 10600
+    },
+    {
+        "id": "pastas-08",
+        "titulo": "Fettuccine",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Pastas",
+            "id": "pastas"
+        },
+        "descripcion": "Con camarones a la crema, espárragos y tomates confitados.",
+        "precio": 10600
+    },
+    {
+        "id": "postres-01",
+        "titulo": "Tiramisú",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Postres",
+            "id": "postres"
+        },
+        "precio": 3500
+    },
+    {
+        "id": "postres-02",
+        "titulo": "Suspiro limeño",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Postres",
+            "id": "postres"
+        },
+        "precio": 4000
+    },
+    {
+        "id": "postres-03",
+        "titulo": "Cheescake",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Postres",
+            "id": "postres"
+        },
+        "precio": 4000
+    },
+    {
+        "id": "postres-04",
+        "titulo": "Panqueque celestino gratinado",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Postres",
+            "id": "postres"
+        },
+        "descripcion": "Servido con con helado de vainilla",
+        "precio": 4000
+    },
+    {
+        "id": "postres-04",
+        "titulo": "Torta de chocolate",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Postres",
+            "id": "postres"
+        },
+        "precio": 4000
+    },
+    {
+        "id": "bebestibles-01",
+        "titulo": "Agua mineral c/s gas",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Bebestibles",
+            "id": "bebestibles"
+        },
+        "precio": 1700
+    },
+    {
+        "id": "bebestibles-02",
+        "titulo": "Bebida 350 ml",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Bebestibles",
+            "id": "bebestibles"
+        },
+        "precio": 1900
+    },
+    {
+        "id": "bebestibles-03",
+        "titulo": "Jugo natural",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Bebestibles",
+            "id": "bebestibles"
+        },
+        "precio": 3500
+    },
+    {
+        "id": "cervezas-01",
+        "titulo": "Royal 330cc",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Cervezas",
+            "id": "cervezas"
+        },
+        "precio": 3000
+    },
+    {
+        "id": "cervezas-02",
+        "titulo": "Heineken 330cc",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Cervezas",
+            "id": "cervezas"
+        },
+        "precio": 3500
+    },
+    {
+        "id": "cervezas-03",
+        "titulo": "Miller 330cc",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Cervezas",
+            "id": "cervezas"
+        },
+        "precio": 3500
+    },
+    {
+        "id": "cervezas-04",
+        "titulo": "Corona 330cc",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Cervezas",
+            "id": "cervezas"
+        },
+        "precio": 3500
+    },
+    {
+        "id": "cervezas-05",
+        "titulo": "Estrella 330cc",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Cervezas",
+            "id": "cervezas"
+        },
+        "precio": 4000
+    },
+    {
+        "id": "cervezas-06",
+        "titulo": "Kross 330cc",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Cervezas",
+            "id": "cervezas"
+        },
+        "precio": 4000
+    },
+    {
+        "id": "cervezas-07",
+        "titulo": "Patagonia 330cc",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Cervezas",
+            "id": "cervezas"
+        },
+        "precio": 4000
+    },
+    {
+        "id": "cervezas-08",
+        "titulo": "Kunstmann 330cc",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Cervezas",
+            "id": "cervezas"
+        },
+        "precio": 4000
+    },
+    {
+        "id": "cervezas-9",
+        "titulo": "Sagrada 330cc",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Cervezas",
+            "id": "cervezas"
+        },
+        "precio": 4300
+    },
+    {
+        "id": "coctel-01",
+        "titulo": "Amaretto sour",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Coctelería",
+            "id": "cocteleria"
+        },
+        "precio": 4200
+    },
+    {
+        "id": "coctel-02",
+        "titulo": "Pisco sour",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Coctelería",
+            "id": "cocteleria"
+        },
+        "precio": 4200
+    },
+    {
+        "id": "coctel-03",
+        "titulo": "Aperol Spritz",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Coctelería",
+            "id": "cocteleria"
+        },
+        "precio": 6000
+    },
+    {
+        "id": "coctel-04",
+        "titulo": "Ramazzotti",
+        "imagen": "./img/Fectuccine a la crema.png",
+        "categoria": {
+            "nombre": "Coctelería",
+            "id": "cocteleria"
+        },
+        "precio": 6000
+    }
+]
